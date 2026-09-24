@@ -25,7 +25,7 @@ I turn that into automated pipelines and dashboards people actually use.
 ![SAP](https://img.shields.io/badge/SAP%20ERP-0FAAFF?style=flat&logo=sap&logoColor=white)
 ![VBA](https://img.shields.io/badge/VBA-867DB1?style=flat)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 
 **Databases:** PostgreSQL · SQL Server · MySQL  **Modeling:** star schema, ETL, data governance
 
@@ -33,6 +33,7 @@ I turn that into automated pipelines and dashboards people actually use.
 
 | Project | What it shows |
 |---|---|
+| [**pipeline-eng-change-powerbi**](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Python + SQL pipeline replacing a manual weekly spreadsheet: staging, cleaning, business rules in SQL views, and a weekly snapshot that gives the report the history its source system never kept. |
 | [**sap-automation**](https://github.com/lucasnunesf/sap-automation) | The Toyota PR automation, rebuilt with synthetic data: spreadsheet in → requisitions created in SAP GUI. |
 | [**sql-analytics-queries**](https://github.com/lucasnunesf/sql-analytics-queries) | PostgreSQL schema + analytics queries: joins, window functions, aggregations, performance notes. |
 | [**Power BI portfolio**](https://lucasnunesf.notion.site/Lucas-Nunes) | Dashboards from real problems, including consolidating 163 Excel files into one report. |
@@ -40,9 +41,9 @@ I turn that into automated pipelines and dashboards people actually use.
 
 ### 🤖 Beyond data
 
-Led design and C programming of combat robots at **Omegabotz (FACENS)**, analyzing real-time telemetry. **2nd place at an international championship in Greece.**
-→ [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition)
+Designed and programmed combat robots in C++ at **Omegabotz (FACENS)**, reading sensor telemetry in real time to adjust control strategy between matches. Competing taught me the same thing the factory did: a system is only as good as the data you can read from it while it runs.
 
+→ [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition)
 
 ### 📫 Contact
 
