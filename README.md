@@ -13,7 +13,6 @@ I turn that into automated pipelines and dashboards people actually use.
 
 - **3–6 hours → under 5 minutes**: automated PR/PO creation in SAP ERP with Python + VBA at **Toyota do Brasil** (95%+ faster)
 - **30 Excel sources → 1 report**: consolidated purchasing data into a single Power BI view
-- **163 supplier files → 1 dashboard**: cost reduction tracking across 100+ suppliers, replacing days of monthly manual work with one refresh
 - **Weekly executive dashboards** for Engineering Change tracking, fed by Python + SQL extractions from a legacy system
 - **ERP migration (TOIOS → SAP)**: standardized databases and data workflows across Brazil and Argentina
 - **−60% lookup time, −15% scrap**: Power BI dashboards on top of the Kiron ERP at **AC Metais**
@@ -49,7 +48,7 @@ I turn that into automated pipelines and dashboards people actually use.
 Full write-ups on Notion (problem, approach, model and results; all data anonymized or synthetic):
 
 - [**Engineering Change Tracking**](https://lucasnunesf.notion.site/Power-BI-Engineering-Change-Tracking-3e5917c89c1780978911c01acd0b21b3): two dashboards for change requests, with field parameters switching six approval stages on one page
-- [**Automotive Cost Reduction Tracking**](https://lucasnunesf.notion.site/Power-BI-Automotive-Cost-Reduction-Tracking-3de917c89c1780c38feccacc9238ab6e): 163 supplier files consolidated, fiscal-year target tracking and gap analysis
+
 
 → [Full portfolio](https://lucasnunesf.notion.site)
 
