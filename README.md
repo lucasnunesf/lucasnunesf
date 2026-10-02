@@ -1,4 +1,4 @@
-### Hi, I'm Lucas 👋
+### Hi, I'm Lucas 
 
 **Data & BI Analyst** · Mechanical Engineer · building toward **Data Engineering**
 
