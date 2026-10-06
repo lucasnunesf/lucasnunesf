@@ -5,7 +5,7 @@
 I work where operations meet data: ERP systems, legacy databases and spreadsheets that nobody wants to reconcile by hand.
 I turn that into automated pipelines and dashboards people actually use.
 
-📍 EU citizen, **based in Lisbon from February 2027**
+📍 EU citizen, **based in Lisbon from February 2027** · [Download CV (PDF)](https://github.com/lucasnunesf/lucasnunesf/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
 
 ---
 
@@ -38,20 +38,19 @@ I turn that into automated pipelines and dashboards people actually use.
 
 | Project | What it shows |
 |---|---|
-| [**pipeline-eng-change-powerbi**](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Python + SQL pipeline replacing a manual weekly spreadsheet: staging, cleaning, business rules in SQL views, and a weekly snapshot that gives the report the history its source system never kept. |
-| [**sap-automation**](https://github.com/lucasnunesf/sap-automation) | The Toyota PR/PO automation, rebuilt with synthetic data: supplier spreadsheets in → requisitions and purchase orders created in SAP GUI, with validation and traceability. |
-| [**pipeline-payment-powerbi**](https://github.com/lucasnunesf/pipeline-payment-powerbi) | Python + SQL pipeline for purchasing payment data, feeding a Power BI dashboard. |
-| [**sql-analytics-queries**](https://github.com/lucasnunesf/sql-analytics-queries) | PostgreSQL schema + analytics queries answering business questions: joins, window functions, aggregations, performance notes. |
-| [**data-pipeline**](https://github.com/lucasnunesf/data-pipeline) *(in progress)* | End-to-end cloud pipeline on Azure with public Portuguese data: ingestion → transformation → analytics layer. |
+| [**sap-automation**](https://github.com/lucasnunesf/sap-automation) | The Toyota purchasing automation (3–6 hours → under 5 minutes), rebuilt on synthetic data: a five-stage Python + VBA pipeline that normalizes five supplier formats, validates every line and creates requisitions and purchase orders in SAP GUI. |
+| [**pipeline-eng-change-powerbi**](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Python + SQL pipeline replacing a manual weekly spreadsheet: staging, cleaning, business rules in SQL views, and a weekly snapshot that gives the Power BI report the history its source system never kept. |
+| [**pipeline-payment-powerbi**](https://github.com/lucasnunesf/pipeline-payment-powerbi) | SQL pipeline that consolidates 5 data sources from different teams into one model: cleaning and standardizing the data, extracting insights on the purchasing payment flow and delivering them in a Power BI dashboard. |
+| [**ac-metais-data-platform**](https://github.com/lucasnunesf/ac-metais-data-platform) *(in progress)* | End-to-end Azure data platform for a laser cutting and metal fabrication plant: plant simulator, streaming machine telemetry, Databricks lakehouse (bronze → silver → gold), dbt, Terraform and Power BI. |
 
 ### 📊 Case studies
 
 Full write-ups on Notion (problem, approach and results; all data anonymized or synthetic):
 
-- [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site): requisitions and purchase orders created automatically, cutting document creation time by up to 97%
+- [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site/Automating-the-purchasing-cycle-in-SAP-a73917c89c1783d49fb301b2a65ab928): requisitions and purchase orders created automatically, cutting document creation time by up to 97%
 - [**Power BI – Engineering Change Tracking**](https://lucasnunesf.notion.site/Power-BI-Engineering-Change-Tracking-3e5917c89c1780978911c01acd0b21b3): two dashboards for change requests, with field parameters switching six approval stages on one page
 
-→ [Full portfolio](https://lucasnunesf.notion.site)
+→ [Full portfolio](https://lucasnunesf.notion.site/Lucas-Fernandes-Nunes-3de917c89c178092885cf639b619767b?pvs=143)
 
 ### 🎓 Education & certificates
 
@@ -63,10 +62,11 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 
 Designed and programmed combat robots in C++ at **Omegabotz (FACENS)**, reading sensor telemetry in real time to adjust control strategy between matches. **2nd place at an international championship in Greece.** Competing taught me the same thing the factory did: a system is only as good as the data you can read from it while it runs.
 
-→ [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition)
+→ [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition): ESP32 firmware in C++ with state machines, sensor logic separated from strategy, and unit tests that run on a PC.
 
 ### 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasfernandesnunes)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat&logo=notion&logoColor=white)](https://lucasnunesf.notion.site)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat&logo=notion&logoColor=white)](https://lucasnunesf.notion.site/Lucas-Fernandes-Nunes-3de917c89c178092885cf639b619767b?pvs=143)
 [![Email](https://img.shields.io/badge/lucasnunes100f@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:lucasnunes100f@gmail.com)
+[![CV](https://img.shields.io/badge/Download%20CV-PDF-1F3864?style=flat&logo=readdotcv&logoColor=white)](https://github.com/lucasnunesf/lucasnunesf/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
