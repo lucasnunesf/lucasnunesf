@@ -40,7 +40,7 @@ I turn that into automated pipelines and dashboards people actually use.
 |---|---|
 | [**sap-automation**](https://github.com/lucasnunesf/sap-automation) | The Toyota purchasing automation (3–6 hours → under 5 minutes), rebuilt on synthetic data: a five-stage Python + VBA pipeline that normalizes five supplier formats, validates every line and creates requisitions and purchase orders in SAP GUI. |
 | [**pipeline-eng-change-powerbi**](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Python + SQL pipeline replacing a manual weekly spreadsheet: staging, cleaning, business rules in SQL views, and a weekly snapshot that gives the Power BI report the history its source system never kept. |
-| [**pipeline-payment-powerbi**](https://github.com/lucasnunesf/pipeline-payment-powerbi) | SQL pipeline that consolidates 5 data sources from different teams into one model: cleaning and standardizing the data, extracting insights on the purchasing payment flow and delivering them in a Power BI dashboard. |
+| [**pipeline-payment-powerbi**](https://github.com/lucasnunesf/pipeline-payment-powerbi) *(in progress)* | SQL pipeline that consolidates 5 data sources from different teams into one model: cleaning and standardizing the data, extracting insights on the purchasing payment flow and delivering them in a Power BI dashboard. |
 | [**ac-metais-data-platform**](https://github.com/lucasnunesf/ac-metais-data-platform) *(in progress)* | End-to-end Azure data platform for a laser cutting and metal fabrication plant: plant simulator, streaming machine telemetry, Databricks lakehouse (bronze → silver → gold), dbt, Terraform and Power BI. |
 
 ### 📊 Case studies
