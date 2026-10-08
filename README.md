@@ -38,10 +38,11 @@ I turn that into automated pipelines and dashboards people actually use.
 
 | Project | What it shows |
 |---|---|
+| [**ac-metais-data-platform**](https://github.com/lucasnunesf/ac-metais-data-platform) *(in progress)* | End-to-end Azure data platform for a laser cutting and metal fabrication plant: plant simulator, streaming machine telemetry, Databricks lakehouse (bronze → silver → gold), dbt, Terraform and Power BI. |
 | [**sap-automation**](https://github.com/lucasnunesf/sap-automation) | The Toyota purchasing automation (3–6 hours → under 5 minutes), rebuilt on synthetic data: a five-stage Python + VBA pipeline that normalizes five supplier formats, validates every line and creates requisitions and purchase orders in SAP GUI. |
 | [**pipeline-eng-change-powerbi**](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Python + SQL pipeline replacing a manual weekly spreadsheet: staging, cleaning, business rules in SQL views, and a weekly snapshot that gives the Power BI report the history its source system never kept. |
+| [**pipeline-cost-reduction-powerbi**](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | A redesign of how 150 supplier Excel files could feed one cost reduction report: all cleaning done in SQL, a data quality log recording every fix, a star model with a fiscal calendar, and a test that checks the result against the original data. |
 | [**prototype-inventory-sql**](https://github.com/lucasnunesf/prototype-inventory-sql) | The QR-code tracking process my team introduced for prototype parts at Bosch, rebuilt in PostgreSQL on synthetic data: business rules enforced by triggers, an append-only movement history, physical count reconciliation and nine analysis queries, all tested on every push with GitHub Actions. |
-| [**ac-metais-data-platform**](https://github.com/lucasnunesf/ac-metais-data-platform) *(in progress)* | End-to-end Azure data platform for a laser cutting and metal fabrication plant: plant simulator, streaming machine telemetry, Databricks lakehouse (bronze → silver → gold), dbt, Terraform and Power BI. |
 
 ### 📊 Case studies
 
@@ -49,6 +50,7 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 
 - [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site/Automating-the-purchasing-cycle-in-SAP-a73917c89c1783d49fb301b2a65ab928): requisitions and purchase orders created automatically, cutting document creation time by up to 97%
 - [**Power BI – Engineering Change Tracking**](https://lucasnunesf.notion.site/Power-BI-Engineering-Change-Tracking-3e5917c89c1780978911c01acd0b21b3): two dashboards for change requests, with field parameters switching six approval stages on one page
+- [**Power BI – Automotive Cost Reduction Tracking**](NOTION_LINK_HERE): 163 supplier files consolidated into one dashboard that shows real vs. paper savings and the gap to the fiscal year target
 
 → [Full portfolio](https://lucasnunesf.notion.site/Lucas-Fernandes-Nunes-3de917c89c178092885cf639b619767b?pvs=143)
 
