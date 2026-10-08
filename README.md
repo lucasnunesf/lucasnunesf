@@ -17,7 +17,7 @@ I turn that into automated pipelines and dashboards people actually use.
 - **Weekly executive dashboards** for Engineering Change tracking, fed by Python + SQL extractions from a legacy system
 - **ERP migration (TOIOS → SAP)**: standardized databases and data workflows across Brazil and Argentina
 - **−60% lookup time, −15% scrap**: Power BI dashboards on top of the Kiron ERP at **AC Metais**
-- **Real-time prototype stock visibility** at **Bosch**, with Python scripts parsing emails into Power BI
+- **−60% inventory losses and rework** at **Bosch**: QR-code tracking for prototype parts, introduced with my team, plus Python scripts parsing emails into Power BI for real-time stock visibility
 
 ### 🛠️ Stack
 
@@ -51,6 +51,7 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 - [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site/Automating-the-purchasing-cycle-in-SAP-a73917c89c1783d49fb301b2a65ab928): requisitions and purchase orders created automatically, cutting document creation time by up to 97%
 - [**Power BI – Engineering Change Tracking**](https://lucasnunesf.notion.site/Power-BI-Engineering-Change-Tracking-3e5917c89c1780978911c01acd0b21b3): two dashboards for change requests, with field parameters switching six approval stages on one page
 - [**Power BI – Automotive Cost Reduction Tracking**](NOTION_LINK_HERE): 163 supplier files consolidated into one dashboard that shows real vs. paper savings and the gap to the fiscal year target
+- [**Tracking prototype parts with QR codes**](https://lucasnunesf.notion.site/Tracking-prototype-parts-with-QR-codes-81a917c89c17830b82b38101d66af8e3): the QR code → form → spreadsheet process my team introduced at Bosch, which cut inventory losses and rework by about 60%
 
 → [Full portfolio](https://lucasnunesf.notion.site/Lucas-Fernandes-Nunes-3de917c89c178092885cf639b619767b?pvs=143)
 
