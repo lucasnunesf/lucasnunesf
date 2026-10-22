@@ -38,7 +38,7 @@ I turn that into automated pipelines and dashboards people actually use.
 
 | Project | What it shows |
 |---|---|
-| [**ac-metais-data-platform**](https://github.com/lucasnunesf/ac-metais-data-platform) *(in progress)* | End-to-end Azure data platform for a laser cutting and metal fabrication plant: plant simulator, streaming machine telemetry, Databricks lakehouse (bronze → silver → gold), dbt, Terraform and Power BI. |
+| [**industrial-data-platform**](https://github.com/lucasnunesf/ac-metais-data-platform) *(in progress)* | End-to-end Azure data platform for a laser cutting and metal fabrication plant: plant simulator, streaming machine telemetry, Databricks lakehouse (bronze → silver → gold), dbt, Terraform and Power BI. |
 | [**sap-automation**](https://github.com/lucasnunesf/sap-automation) | The Toyota purchasing automation (3–6 hours → under 5 minutes), rebuilt on synthetic data: a five-stage Python + VBA pipeline that normalizes five supplier formats, validates every line and creates requisitions and purchase orders in SAP GUI. |
 | [**pipeline-eng-change-powerbi**](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Python + SQL pipeline replacing a manual weekly spreadsheet: staging, cleaning, business rules in SQL views, and a weekly snapshot that gives the Power BI report the history its source system never kept. |
 | [**pipeline-cost-reduction-powerbi**](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | A redesign of how 150 supplier Excel files could feed one cost reduction report: all cleaning done in SQL, a data quality log recording every fix, a star model with a fiscal calendar, and a test that checks the result against the original data. |
