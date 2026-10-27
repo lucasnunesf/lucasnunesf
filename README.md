@@ -60,11 +60,11 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 
 → [Full portfolio](https://lucasnunesf.notion.site/Lucas-Nunes-Data-BI-Analyst-3de917c89c178092885cf639b619767b)
 
-### 🎓 Education & certificates
+### 🎓 Education & training
 
 - **Bachelor's Degree in Mechanical Engineering**, FACENS (2022–2026) · **Technical Degree in Business Intelligence and Administration**, ETEC (2020–2022)
-- **Microsoft Power BI Data Analyst (PL-300)** – Exam Prep, Professional Certificate, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX
-- **Microsoft Fabric Analytics Engineer (DP-600)** – exam scheduled for January 2027
+- **Microsoft Power BI Data Analyst** – Professional Certificate course, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX, as preparation for the PL-300 exam
+- Next step: **Microsoft Fabric Analytics Engineer (DP-600)** certification, planned for 2027
 - 🇧🇷 Portuguese (native) · 🇬🇧 English (professional working proficiency, CEFR B2)
 
 ### 🤖 Beyond data
