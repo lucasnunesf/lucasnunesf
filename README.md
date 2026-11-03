@@ -38,27 +38,28 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 - **−60% sheet metal lookup time, −15% scrap**: Power BI dashboards integrated with the Kiron ERP at **AC Metais**
 - **≈60% fewer inventory losses and rework** at **Bosch**: contributed to a QR-code based prototype inventory solution, plus Python scripts parsing emails into Power BI for real-time stock visibility
 
-### 🚀 Featured projects
+### 🚀 Projects
 
-#### [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) · *in progress, MVP December 2026*
-Azure lakehouse for a metal fabrication plant, based on the real operation of AC Metais. Built so far: a PostgreSQL ERP (14 tables) in Docker, fed by a Python plant simulator that adds history incrementally like a live ERP. Next: ERP → Data Lake → Databricks bronze/silver → dbt star schema → Power BI dashboard for lead time and bottlenecks.  
-**Tools:** PostgreSQL · Python · Docker · Git (pull requests) · Azure Data Lake Storage · Azure Databricks · PySpark · Delta Lake · dbt · Apache Airflow · Power BI
+**Data engineering & pipelines**
 
-#### [sap-automation](https://github.com/lucasnunesf/sap-automation)
-Toyota Business Practices project (top 3 of the 2026 internship programme), rebuilt with synthetic data. A five-stage pipeline normalizes five supplier formats, validates every line and creates requisitions and purchase orders in SAP: 3–6 hours → under 5 minutes.  
-**Tools:** Python · VBA · SAP GUI scripting · Excel
+| Project | What it does | Tech stack |
+|---|---|---|
+| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) 🚧 | Azure lakehouse for a metal fabrication plant: ERP + plant simulator → Databricks → dbt → Power BI (MVP Dec 2026) | PostgreSQL · Python · Docker · Azure Data Lake · Databricks · PySpark · Delta Lake · dbt · Airflow · Power BI |
+| [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces a manual weekly spreadsheet: business rules in SQL views and weekly snapshots that keep history | Python · SQL · SQLite · Power BI |
+| [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star schema, cleaned in SQL with a data quality log and a test | Python · SQL · SQLite · Power BI |
 
-#### [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi)
-Replaces a manual weekly Engineering Change spreadsheet. Loads the raw extracts, cleans them, applies business rules in SQL views and saves a weekly snapshot, giving the report the history its source system never kept.  
-**Tools:** Python · SQL · SQLite · Power BI
+**Databases & process automation**
 
-#### [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi)
-Turns 150 supplier Excel files into one clean cost reduction model. All cleaning in SQL with a log of every fix, a star schema with a fiscal calendar, and a test that checks the result against the source files.  
-**Tools:** Python · SQL · SQLite · star schema · Power BI
+| Project | What it does | Tech stack |
+|---|---|---|
+| [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) | Prototype part tracking with triggers, append-only history and 9 queries tested on every push | PostgreSQL · SQL · Python · GitHub Actions |
+| [sap-automation](https://github.com/lucasnunesf/sap-automation) | Creates requisitions and POs in SAP from 5 supplier formats: 3–6 h → under 5 min (Toyota top 3 project) | Python · VBA · SAP GUI · Excel |
 
-#### [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql)
-The Bosch QR-code tracking process for prototype parts, rebuilt in PostgreSQL. Triggers enforce the business rules, every movement is kept in an append-only history, and nine analysis queries run as tests on every push.  
-**Tools:** PostgreSQL · SQL (triggers, views, window functions) · Python · GitHub Actions
+**Embedded**
+
+| Project | What it does | Tech stack |
+|---|---|---|
+| [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition) | Sumo robot firmware with a state machine, sensor logic separated from strategy and tests run on a PC | C++ · Arduino · ESP32 |
 
 ### 📊 Case studies
 
@@ -82,8 +83,6 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 ### 🤖 Beyond data
 
 Led the design and assembly of combat robots at **Omegabotz (FACENS)**, programming microcontroller and motor control logic in C++ and analyzing real-time telemetry data. **2nd place at an international championship in Greece.** Also built data acquisition routines for the **SAE Formula/Baja** team and coordinate the automation and electrical sub-teams at **Falcons Aerodesign**. Competing taught me the same thing the factory did: a system is only as good as the data you can read from it while it runs.
-
-→ [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition): ESP32 firmware in C++ with state machines, sensor logic separated from strategy, and unit tests that run on a PC.
 
 ### 📫 Contact
 
