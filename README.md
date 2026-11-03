@@ -5,7 +5,7 @@
 I work where operations meet data: ERP systems, legacy databases and spreadsheets that nobody wants to reconcile by hand.
 I turn that into automated pipelines and dashboards people actually use. 3+ years at **Toyota**, **Bosch** and **AC Metais**, working daily in English with teams in Japan, Thailand and the United States.
 
-📍 EU citizen (no visa required), **based in Lisbon from February 2027** · [Download CV (PDF)](https://github.com/lucasnunesf/lucasnunesf/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
+📍 EU citizen (no visa required), **based in Lisbon from February 2027** · [Download CV (PDF)](https://github.com/lucasnunesf/CV/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
 
 ---
 
@@ -89,4 +89,4 @@ Led the design and assembly of combat robots at **Omegabotz (FACENS)**, programm
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasfernandesnunes)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat&logo=notion&logoColor=white)](https://lucasnunesf.notion.site/Lucas-Nunes-Data-BI-Analyst-3de917c89c178092885cf639b619767b)
 [![Email](https://img.shields.io/badge/lucasnunes100f@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:lucasnunes100f@gmail.com)
-[![CV](https://img.shields.io/badge/Download%20CV-PDF-1F3864?style=flat&logo=readdotcv&logoColor=white)](https://github.com/lucasnunesf/lucasnunesf/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
+[![CV](https://img.shields.io/badge/Download%20CV-PDF-1F3864?style=flat&logo=readdotcv&logoColor=white)](https://github.com/lucasnunesf/CV/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
