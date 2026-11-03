@@ -1,11 +1,41 @@
-### Hi, I'm Lucas 
+### Hi, I'm Lucas
 
-**Data Analyst | BI Analyst** · Mechanical Engineer · building toward **Data Engineering**
+**Data Analyst | BI Analyst** · Mechanical Engineer · building toward **Analytics & Data Engineering**
 
 I work where operations meet data: ERP systems, legacy databases and spreadsheets that nobody wants to reconcile by hand.
 I turn that into automated pipelines and dashboards people actually use. 3+ years at **Toyota**, **Bosch** and **AC Metais**, working daily in English with teams in Japan, Thailand and the United States.
 
 📍 EU citizen (no visa required), **based in Lisbon from February 2027** · [Download CV (PDF)](https://github.com/lucasnunesf/lucasnunesf/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
+
+---
+
+### 🧰 Tools at a glance
+
+| Area | Tools | Where to see it |
+|---|---|---|
+| **BI & analytics** | Power BI · DAX · Power Query · star schema · Excel | [Power BI case studies](https://lucasnunesf.notion.site/Lucas-Nunes-Data-BI-Analyst-3de917c89c178092885cf639b619767b) |
+| **SQL** | PostgreSQL · SQLite · SQL Server · window functions, CTEs, views, triggers | [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) · [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) |
+| **Python** | Python · PySpark · openpyxl · psycopg | [sap-automation](https://github.com/lucasnunesf/sap-automation) · [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) · [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) |
+| **Cloud & lakehouse** | Azure (Data Lake Storage Gen2) · Azure Databricks · Delta Lake · medallion architecture | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) |
+| **Transformation & orchestration** | dbt (models + tests) · Apache Airflow · incremental ingestion | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) |
+| **DevOps** | Git (feature branches + pull requests) · Docker / Docker Compose · GitHub Actions (CI) | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) · [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) |
+| **Business systems & automation** | SAP ERP (SAP GUI scripting) · VBA · Salesforce · OutSystems | [sap-automation](https://github.com/lucasnunesf/sap-automation) |
+| **Embedded** | C++ (ESP32) | [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition) |
+
+![Python](https://img.shields.io/badge/Python%20%2F%20PySpark-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI%20%2B%20DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![SAP](https://img.shields.io/badge/SAP%20ERP-0FAAFF?style=flat&logo=sap&logoColor=white)
+![VBA](https://img.shields.io/badge/VBA-867DB1?style=flat)
 
 ---
 
@@ -19,31 +49,11 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 - **−60% sheet metal lookup time, −15% scrap**: Power BI dashboards integrated with the Kiron ERP at **AC Metais**
 - **≈60% fewer inventory losses and rework** at **Bosch**: contributed to a QR-code based prototype inventory solution, plus Python scripts parsing emails into Power BI for real-time stock visibility
 
-### 🛠️ Stack
-
-![Python](https://img.shields.io/badge/Python%20%2F%20PySpark-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI%20%2B%20DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=flat&logo=microsoftexcel&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![SAP](https://img.shields.io/badge/SAP%20ERP-0FAAFF?style=flat&logo=sap&logoColor=white)
-![VBA](https://img.shields.io/badge/VBA-867DB1?style=flat)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
-
-**Data engineering:** ETL/ELT, data pipelines, incremental ingestion, lakehouse architecture (Azure Data Lake Storage, Delta Lake), data quality testing (dbt), data governance, ERP data migration  
-**Databases:** PostgreSQL · SQL Server · MySQL · SQLite  
-**Modeling:** star schema, DAX, field parameters  
-**Business systems:** SAP ERP · Salesforce · OutSystems
-
 ### 🚀 Featured projects
 
 | Project | What it shows |
 |---|---|
-| [**industrial-data-platform**](https://github.com/lucasnunesf/industrial-data-platform) *(in progress)* | End-to-end lakehouse platform on Azure for a metal fabrication plant, based on the real operation of AC Metais: synthetic ERP and machine data ingested incrementally into Azure Data Lake Storage, Databricks bronze and silver layers, dbt models and tests, Airflow, and Power BI for lead time, bottleneck, OEE and margin analysis. |
+| [**industrial-data-platform**](https://github.com/lucasnunesf/industrial-data-platform) *(in progress, MVP December 2026)* | End-to-end lakehouse on Azure for a metal fabrication plant, based on the real operation of AC Metais. **Built:** a PostgreSQL ERP (14 tables: orders, routings, production stage events, quality, shipping) running in Docker, fed by a deterministic Python plant simulator that adds history incrementally like a live ERP. **Next:** incremental load to Azure Data Lake Storage → Databricks bronze/silver (PySpark, Delta Lake) → dbt gold star schema with tests → Airflow → Power BI for lead time and bottlenecks. |
 | [**sap-automation**](https://github.com/lucasnunesf/sap-automation) | **Payments Postponed**, a Toyota Business Practices project (top 3 of the 2026 internship programme), rebuilt on synthetic data: standardizes the payment flow for tooling, services and investments with a five-stage Python + VBA pipeline that normalizes five supplier formats, validates every line and creates requisitions and purchase orders in SAP GUI (3–6 hours → under 5 minutes). |
 | [**pipeline-eng-change-powerbi**](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Python + SQL pipeline replacing a manual weekly spreadsheet: staging, cleaning, business rules in SQL views, and a weekly snapshot that gives the Power BI report the history its source system never kept. |
 | [**pipeline-cost-reduction-powerbi**](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | A redesign of how supplier Excel files could feed one cost reduction report, run on 150 synthetic files: all cleaning done in SQL, a data quality log recording every fix, a star model with a fiscal calendar, and a test that checks the result against the original data. |
@@ -64,7 +74,8 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 
 - **Bachelor's Degree in Mechanical Engineering**, FACENS (2022–2026) · **Technical Degree in Business Intelligence and Administration**, ETEC (2020–2022)
 - **Microsoft Power BI Data Analyst** – Professional Certificate course, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX, as preparation for the PL-300 exam
-- Next step: **Microsoft Fabric Analytics Engineer (DP-600)** certification, planned for 2027
+- **IBM Data Engineering** – Professional Certificate course, IBM via Coursera (2026)
+- **Microsoft Azure Data Fundamentals (DP-900)**: exam prep completed, exam scheduled for December 2026
 - 🇧🇷 Portuguese (native) · 🇬🇧 English (professional working proficiency, CEFR B2)
 
 ### 🤖 Beyond data
