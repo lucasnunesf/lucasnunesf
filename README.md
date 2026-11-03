@@ -9,18 +9,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 ---
 
-### 🧰 Tools at a glance
-
-| Area | Tools | Where to see it |
-|---|---|---|
-| **BI & analytics** | Power BI · DAX · Power Query · star schema · Excel | [Power BI case studies](https://lucasnunesf.notion.site/Lucas-Nunes-Data-BI-Analyst-3de917c89c178092885cf639b619767b) |
-| **SQL** | PostgreSQL · SQLite · SQL Server · window functions, CTEs, views, triggers | [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) · [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) |
-| **Python** | Python · PySpark · openpyxl · psycopg | [sap-automation](https://github.com/lucasnunesf/sap-automation) · [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) · [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) |
-| **Cloud & lakehouse** | Azure (Data Lake Storage Gen2) · Azure Databricks · Delta Lake · medallion architecture | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) |
-| **Transformation & orchestration** | dbt (models + tests) · Apache Airflow · incremental ingestion | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) |
-| **DevOps** | Git (feature branches + pull requests) · Docker / Docker Compose · GitHub Actions (CI) | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) · [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) |
-| **Business systems & automation** | SAP ERP (SAP GUI scripting) · VBA · Salesforce · OutSystems | [sap-automation](https://github.com/lucasnunesf/sap-automation) |
-| **Embedded** | C++ (ESP32) | [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition) |
+### 🛠️ Stack
 
 ![Python](https://img.shields.io/badge/Python%20%2F%20PySpark-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
@@ -51,13 +40,25 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 ### 🚀 Featured projects
 
-| Project | What it shows |
-|---|---|
-| [**industrial-data-platform**](https://github.com/lucasnunesf/industrial-data-platform) *(in progress, MVP December 2026)* | End-to-end lakehouse on Azure for a metal fabrication plant, based on the real operation of AC Metais. **Built:** a PostgreSQL ERP (14 tables: orders, routings, production stage events, quality, shipping) running in Docker, fed by a deterministic Python plant simulator that adds history incrementally like a live ERP. **Next:** incremental load to Azure Data Lake Storage → Databricks bronze/silver (PySpark, Delta Lake) → dbt gold star schema with tests → Airflow → Power BI for lead time and bottlenecks. |
-| [**sap-automation**](https://github.com/lucasnunesf/sap-automation) | **Payments Postponed**, a Toyota Business Practices project (top 3 of the 2026 internship programme), rebuilt on synthetic data: standardizes the payment flow for tooling, services and investments with a five-stage Python + VBA pipeline that normalizes five supplier formats, validates every line and creates requisitions and purchase orders in SAP GUI (3–6 hours → under 5 minutes). |
-| [**pipeline-eng-change-powerbi**](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Python + SQL pipeline replacing a manual weekly spreadsheet: staging, cleaning, business rules in SQL views, and a weekly snapshot that gives the Power BI report the history its source system never kept. |
-| [**pipeline-cost-reduction-powerbi**](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | A redesign of how supplier Excel files could feed one cost reduction report, run on 150 synthetic files: all cleaning done in SQL, a data quality log recording every fix, a star model with a fiscal calendar, and a test that checks the result against the original data. |
-| [**prototype-inventory-sql**](https://github.com/lucasnunesf/prototype-inventory-sql) | The QR-code tracking process for prototype parts at Bosch, rebuilt in PostgreSQL on synthetic data: business rules enforced by triggers, an append-only movement history, physical count reconciliation and nine analysis queries, all tested on every push with GitHub Actions. |
+#### [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) · *in progress, MVP December 2026*
+Azure lakehouse for a metal fabrication plant, based on the real operation of AC Metais. Built so far: a PostgreSQL ERP (14 tables) in Docker, fed by a Python plant simulator that adds history incrementally like a live ERP. Next: ERP → Data Lake → Databricks bronze/silver → dbt star schema → Power BI dashboard for lead time and bottlenecks.  
+**Tools:** PostgreSQL · Python · Docker · Git (pull requests) · Azure Data Lake Storage · Azure Databricks · PySpark · Delta Lake · dbt · Apache Airflow · Power BI
+
+#### [sap-automation](https://github.com/lucasnunesf/sap-automation)
+Toyota Business Practices project (top 3 of the 2026 internship programme), rebuilt with synthetic data. A five-stage pipeline normalizes five supplier formats, validates every line and creates requisitions and purchase orders in SAP: 3–6 hours → under 5 minutes.  
+**Tools:** Python · VBA · SAP GUI scripting · Excel
+
+#### [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi)
+Replaces a manual weekly Engineering Change spreadsheet. Loads the raw extracts, cleans them, applies business rules in SQL views and saves a weekly snapshot, giving the report the history its source system never kept.  
+**Tools:** Python · SQL · SQLite · Power BI
+
+#### [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi)
+Turns 150 supplier Excel files into one clean cost reduction model. All cleaning in SQL with a log of every fix, a star schema with a fiscal calendar, and a test that checks the result against the source files.  
+**Tools:** Python · SQL · SQLite · star schema · Power BI
+
+#### [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql)
+The Bosch QR-code tracking process for prototype parts, rebuilt in PostgreSQL. Triggers enforce the business rules, every movement is kept in an append-only history, and nine analysis queries run as tests on every push.  
+**Tools:** PostgreSQL · SQL (triggers, views, window functions) · Python · GitHub Actions
 
 ### 📊 Case studies
 
