@@ -77,7 +77,8 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 - **Bachelor's Degree in Mechanical Engineering**, FACENS (2022–2026) · **Technical Degree in Business Intelligence and Administration**, ETEC (2020–2022)
 - **Microsoft Power BI Data Analyst** – Professional Certificate course, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX, as preparation for the PL-300 exam
 - **IBM Data Engineering** – Professional Certificate course, IBM via Coursera (2026)
-- **Microsoft Azure Data Fundamentals (DP-900)**: exam prep completed, exam scheduled for December 2026
+- **Microsoft Fabric Analytics Engineer (DP-600)**: exam planned for December 2026
+- **Microsoft Azure Data Fundamentals (DP-900)** – Exam Prep course (2026)
 - 🇧🇷 Portuguese (native) · 🇬🇧 English (professional working proficiency, CEFR B2)
 
 ### 🤖 Beyond data
