@@ -44,7 +44,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) 🚧 | Microsoft Fabric lakehouse for a metal fabrication plant, recreating a real data platform project I supported in 2026 (AC Metais): ERP + plant simulator → Fabric Lakehouse → dbt → Power BI (MVP Dec 2026) | PostgreSQL · Python · Docker · Microsoft Fabric · PySpark · Delta Lake · dbt · Airflow · Power BI |
+| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) 🚧 | Azure + Microsoft Fabric lakehouse for a metal fabrication plant, recreating a real data platform project I supported in 2026 (AC Metais): ERP + plant simulator → ADLS Gen2 → Fabric → dbt → Power BI (MVP Dec 2026) | PostgreSQL · Python · Docker · Azure Data Lake · Microsoft Fabric · PySpark · Delta Lake · dbt · Airflow · Power BI |
 | [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces a manual weekly spreadsheet: business rules in SQL views and weekly snapshots that keep history | Python · SQL · SQLite · Power BI |
 | [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star schema, cleaned in SQL with a data quality log and a test | Python · SQL · SQLite · Power BI |
 
