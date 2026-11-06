@@ -17,7 +17,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 ![Power BI](https://img.shields.io/badge/Power%20BI%20%2B%20DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-117865?style=flat)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -44,7 +44,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) 🚧 | Azure lakehouse for a metal fabrication plant: ERP + plant simulator → Databricks → dbt → Power BI (MVP Dec 2026) | PostgreSQL · Python · Docker · Azure Data Lake · Databricks · PySpark · Delta Lake · dbt · Airflow · Power BI |
+| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) 🚧 | Microsoft Fabric lakehouse for a metal fabrication plant, recreating a real data platform project I supported in 2026 (AC Metais): ERP + plant simulator → Fabric Lakehouse → dbt → Power BI (MVP Dec 2026) | PostgreSQL · Python · Docker · Microsoft Fabric · PySpark · Delta Lake · dbt · Airflow · Power BI |
 | [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces a manual weekly spreadsheet: business rules in SQL views and weekly snapshots that keep history | Python · SQL · SQLite · Power BI |
 | [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star schema, cleaned in SQL with a data quality log and a test | Python · SQL · SQLite · Power BI |
 
@@ -77,8 +77,7 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 - **Bachelor's Degree in Mechanical Engineering**, FACENS (2022–2026) · **Technical Degree in Business Intelligence and Administration**, ETEC (2020–2022)
 - **Microsoft Power BI Data Analyst** – Professional Certificate course, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX, as preparation for the PL-300 exam
 - **IBM Data Engineering** – Professional Certificate course, IBM via Coursera (2026)
-- **Microsoft Fabric Analytics Engineer (DP-600)**: exam planned for December 2026
-- **Microsoft Azure Data Fundamentals (DP-900)** – Exam Prep course (2026)
+- **Microsoft Fabric Analytics Engineer (DP-600)**: exam scheduled for December 21, 2026
 - 🇧🇷 Portuguese (native) · 🇬🇧 English (professional working proficiency, CEFR B2)
 
 ### 🤖 Beyond data
