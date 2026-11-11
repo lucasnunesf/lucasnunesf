@@ -42,7 +42,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 ### 🚀 Projects
 
-Every project runs on synthetic data, has automated tests and runs CI on every commit.
+Every project runs on synthetic data and has automated tests. All of them except industrial-data-platform also run those tests in CI on every commit.
 
 **Data engineering**
 
@@ -71,7 +71,7 @@ Every project runs on synthetic data, has automated tests and runs CI on every c
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition) | Sumo robot firmware with a state machine and a match simulator that found a rule losing wins: 97% of matches won instead of 72% | C++17 · Arduino · ESP32 · GitHub Actions |
+| [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition) | Sumo robot firmware with a state machine and a match simulator that found a rule losing wins: 97% of simulated matches won instead of 72% (simulator results, not a real competition) | C++17 · Arduino · ESP32 · GitHub Actions |
 
 ### 📊 Case studies
 
@@ -81,6 +81,9 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 - [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site/Automating-the-purchasing-cycle-in-SAP-a73917c89c1783d49fb301b2a65ab928): requisitions and purchase orders created automatically, cutting time per order by up to 97%
 - [**Automotive Cost Reduction Tracking**](https://lucasnunesf.notion.site/Automotive-Cost-Reduction-Tracking-3de917c89c1780c38feccacc9238ab6e): 163 supplier files brought into one Power BI dashboard, showing the gap to the fiscal year target mid-year
 - [**Power BI – Engineering Change Tracking**](https://lucasnunesf.notion.site/Power-BI-Engineering-Change-Tracking-3e5917c89c1780978911c01acd0b21b3): two dashboards for change requests, with field parameters switching six approval stages on one page
+- [**Production planning: capacity vs load**](https://lucasnunesf.notion.site/Production-planning-capacity-vs-load-415917c89c17811d9e26f20595fd2a08): load vs capacity by work center and week, with the welding bottleneck the shop total hides
+- [**Sheet metal intake: supplier performance**](https://lucasnunesf.notion.site/Sheet-metal-intake-supplier-performance-415917c89c1781e5a657d396b4fd7caf): price next to on-time, fill rate and quality for each sheet metal supplier
+- [**Laser remnant inventory**](https://lucasnunesf.notion.site/Laser-remnant-inventory-415917c89c17816ea8def6a95caba375): laser offcuts from cut to reuse or scrap, before and after a control process
 - [**Tracking prototype parts with QR codes**](https://lucasnunesf.notion.site/Tracking-prototype-parts-with-QR-codes-81a917c89c17830b82b38101d66af8e3): the QR code → form → spreadsheet process introduced at Bosch, which cut inventory losses and rework by about 60%
 
 → [Full portfolio](https://lucasnunesf.notion.site/Lucas-Nunes-Data-BI-Analyst-3de917c89c178092885cf639b619767b)
