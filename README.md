@@ -31,7 +31,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 ### 📈 Impact so far
 
-- **3–6 hours → under 5 minutes**: automated PR/PO creation in SAP ERP with Python + VBA at **Toyota do Brasil** (over 95% faster), selected as a **top 3 Toyota Business Practices project**
+- **5 h 10 min → 8 min 38 s per order (up to 97% faster)**: automated PR/PO creation in SAP ERP with Python + VBA at **Toyota do Brasil**, selected as a **top 3 Toyota Business Practices project**
 - **163 supplier files → 1 dashboard**: cost reduction tracking that replaced days of monthly manual work with one refresh
 - **30 spreadsheets → 1 Power BI view**: replaced a 30-spreadsheet reporting routine with a single report
 - **Weekly executive dashboards** for Engineering Change (ECI) tracking, fed by Python + SQL extractions from the legacy SIQ system
@@ -65,7 +65,7 @@ Every project runs on synthetic data, has automated tests and runs CI on every c
 | Project | What it does | Tech stack |
 |---|---|---|
 | [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) | QR code part tracking with the business rules inside PostgreSQL: triggers, procedures for count closing, a reporting mart for Power BI, roles and row-level security, 12 analysis queries. 31 SQL checks + 47 tests | PostgreSQL · PL/pgSQL · SQL · Python · pytest · GitHub Actions |
-| [sap-automation](https://github.com/lucasnunesf/sap-automation) | Creates requisitions and POs in SAP from 5 supplier formats: 3–6 h → under 5 min (Toyota top 3 project). Parser, business rule and end-to-end tests | Python · VBA · SAP GUI · Excel · pytest |
+| [sap-automation](https://github.com/lucasnunesf/sap-automation) | Creates requisitions and POs in SAP from 5 supplier formats: up to 97% faster, 5 h 10 min → 8 min 38 s per order (Toyota top 3 project). Parser, business rule and end-to-end tests | Python · VBA · SAP GUI · Excel · pytest |
 
 **Embedded**
 
@@ -78,7 +78,7 @@ Every project runs on synthetic data, has automated tests and runs CI on every c
 Full write-ups on Notion (problem, approach and results; all data anonymized or synthetic):
 
 - [**Industrial Data Platform**](https://lucasnunesf.notion.site/Industrial-Data-Platform-415917c89c1781d5803ff41dbe762350): the end-to-end Azure + Microsoft Fabric lakehouse, from the ERP to the Power BI dashboard
-- [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site/Automating-the-purchasing-cycle-in-SAP-a73917c89c1783d49fb301b2a65ab928): requisitions and purchase orders created automatically, cutting document creation time by over 95%
+- [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site/Automating-the-purchasing-cycle-in-SAP-a73917c89c1783d49fb301b2a65ab928): requisitions and purchase orders created automatically, cutting time per order by up to 97%
 - [**Automotive Cost Reduction Tracking**](https://lucasnunesf.notion.site/Automotive-Cost-Reduction-Tracking-3de917c89c1780c38feccacc9238ab6e): 163 supplier files brought into one Power BI dashboard, showing the gap to the fiscal year target mid-year
 - [**Power BI – Engineering Change Tracking**](https://lucasnunesf.notion.site/Power-BI-Engineering-Change-Tracking-3e5917c89c1780978911c01acd0b21b3): two dashboards for change requests, with field parameters switching six approval stages on one page
 - [**Tracking prototype parts with QR codes**](https://lucasnunesf.notion.site/Tracking-prototype-parts-with-QR-codes-81a917c89c17830b82b38101d66af8e3): the QR code → form → spreadsheet process introduced at Bosch, which cut inventory losses and rework by about 60%
