@@ -1,6 +1,6 @@
 ### Hi, I'm Lucas
 
-**Data Analyst | BI Analyst** · Mechanical Engineer · building toward **Analytics & Data Engineering**
+**Data Engineer | Data & BI Analyst** · SQL · Python · Power BI · Azure · Microsoft Fabric · dbt
 
 I work where operations meet data: ERP systems, legacy databases and spreadsheets that nobody wants to reconcile by hand.
 I turn that into automated pipelines and dashboards people actually use. 3+ years at **Toyota**, **Bosch** and **AC Metais**, working daily in English with teams in Japan, Thailand and the United States.
@@ -35,6 +35,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 - **30 spreadsheets → 1 Power BI view**: replaced a 30-spreadsheet reporting routine with a single report
 - **Weekly executive dashboards** for Engineering Change (ECI) tracking, fed by Python + SQL extractions from the legacy SIQ system
 - **ERP migration (TOIOS → SAP)**: standardized databases and data workflows across the TLAC region (Brazil and Argentina)
+- **Azure data platform at AC Metais**: delivered the Power BI reporting layer on top of the gold models and supported ingestion into ADLS Gen2 and transformations with PySpark (Microsoft Fabric) and dbt
 - **−60% sheet metal lookup time, −15% scrap**: Power BI dashboards integrated with the Kiron ERP at **AC Metais**
 - **≈60% fewer inventory losses and rework** at **Bosch**: contributed to a QR-code based prototype inventory solution, plus Python scripts parsing emails into Power BI for real-time stock visibility
 
@@ -44,7 +45,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) 🚧 | Azure + Microsoft Fabric lakehouse for a metal fabrication plant, recreating a real data platform project I supported in 2026 (AC Metais): ERP + plant simulator → ADLS Gen2 → Fabric → dbt → Power BI (MVP Dec 2026) | PostgreSQL · Python · Docker · Azure Data Lake · Microsoft Fabric · PySpark · Delta Lake · dbt · Airflow · Power BI |
+| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) 🚧 | End-to-end rebuild, with synthetic data, of the Azure + Microsoft Fabric data platform I worked on at AC Metais: ERP + plant simulator → ADLS Gen2 → Fabric → dbt → Power BI (MVP Dec 2026) | PostgreSQL · Python · Docker · Azure Data Lake · Microsoft Fabric · PySpark · Delta Lake · dbt · Airflow · Power BI |
 | [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces a manual weekly spreadsheet: business rules in SQL views and weekly snapshots that keep history | Python · SQL · SQLite · Power BI |
 | [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star schema, cleaned in SQL with a data quality log and a test | Python · SQL · SQLite · Power BI |
 
@@ -74,8 +75,8 @@ Full write-ups on Notion (problem, approach and results; all data anonymized or 
 
 ### 🎓 Education & training
 
-- **Bachelor's Degree in Mechanical Engineering**, FACENS (2022–2026) · **Technical Degree in Business Intelligence and Administration**, ETEC (2020–2022)
-- **Microsoft Power BI Data Analyst** – Professional Certificate course, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX, as preparation for the PL-300 exam
+- **Bachelor's Degree in Engineering**, FACENS (2022–2026) · **Technical Degree in Business Intelligence and Administration**, ETEC (2020–2022)
+- **Microsoft Power BI Data Analyst** – Professional Certificate course completed, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX
 - **IBM Data Engineering** – Professional Certificate course, IBM via Coursera (2026)
 - **Microsoft Fabric Analytics Engineer (DP-600)**: exam scheduled for December 21, 2026
 - 🇧🇷 Portuguese (native) · 🇬🇧 English (professional working proficiency, CEFR B2)
