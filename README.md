@@ -5,7 +5,7 @@
 I work where operations meet data: ERP systems, legacy databases and spreadsheets that nobody wants to reconcile by hand.
 I turn that into automated pipelines and dashboards people actually use. 3+ years at **Toyota**, **Bosch** and **AC Metais**, working daily in English with teams in Japan, Thailand and the United States.
 
-📍 EU citizen (no visa required), **based in Lisbon from February 2027** · [Download CV (PDF)](https://github.com/lucasnunesf/CV/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
+📍 EU citizen (no visa required), **based in Lisbon from February 2027** · [Download CV (PDF)](https://github.com/lucasnunesf/CV/raw/main/Lucas_Fernandes_Nunes_CV.pdf)
 
 ---
 
@@ -41,13 +41,13 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 ### 🚀 Projects
 
-Every project runs on synthetic data and has automated tests. All of them except industrial-data-platform also run those tests in CI on every commit.
+Every project runs on synthetic data, has automated tests and runs them in CI on GitHub Actions.
 
 **Data engineering**
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) ✅ MVP | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → PySpark in Fabric (silver) → dbt star schema with tests (gold) → Power BI on bottlenecks, lead time and on-time delivery. Infrastructure in Terraform. Next: streaming, Airflow and CI/CD | PostgreSQL · Python · Docker · ADLS Gen2 · Microsoft Fabric · PySpark · Delta Lake · dbt · Terraform · Power BI |
+| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) ✅ MVP | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → PySpark in Fabric (silver) → dbt star schema with tests (gold) → Power BI on bottlenecks, lead time and on-time delivery. Infrastructure in Terraform, CI on GitHub Actions and a local Airflow DAG. Next: laser streaming | PostgreSQL · Python · Docker · ADLS Gen2 · Microsoft Fabric · PySpark · Delta Lake · dbt · Terraform · Airflow · GitHub Actions · Power BI |
 | [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star model in about 3 s: 25+ kinds of defects cleaned, every fix logged, forecast vs fiscal year target. 48 tests | Python · SQL (CTEs, window functions) · SQLite · pytest · Power BI |
 | [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces ~20 min of weekly spreadsheet work with one command: business rules in SQL views and a weekly snapshot fact table that keeps history. 27 tests | Python · pandas · SQL · SQLite · pytest · Power BI |
 
@@ -104,4 +104,4 @@ Led the design and assembly of combat robots at **Omegabotz (FACENS)**, programm
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasfernandesnunes)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat&logo=notion&logoColor=white)](https://lucasnunesf.notion.site/Lucas-Nunes-Data-BI-Analyst-3de917c89c178092885cf639b619767b)
 [![Email](https://img.shields.io/badge/lucasnunes100f@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:lucasnunes100f@gmail.com)
-[![CV](https://img.shields.io/badge/Download%20CV-PDF-1F3864?style=flat&logo=readdotcv&logoColor=white)](https://github.com/lucasnunesf/CV/blob/main/Lucas_Fernandes_Nunes_CV.pdf)
+[![CV](https://img.shields.io/badge/Download%20CV-PDF-1F3864?style=flat&logo=readdotcv&logoColor=white)](https://github.com/lucasnunesf/CV/raw/main/Lucas_Fernandes_Nunes_CV.pdf)
