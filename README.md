@@ -47,7 +47,7 @@ Every project runs on synthetic data, has automated tests and runs them in CI on
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) ✅ MVP | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → PySpark in Fabric (silver) → dbt star schema with tests (gold) → Power BI on bottlenecks, lead time and on-time delivery. Infrastructure in Terraform, CI on GitHub Actions and a local Airflow DAG. Next: laser streaming | PostgreSQL · Python · Docker · ADLS Gen2 · Microsoft Fabric · PySpark · Delta Lake · dbt · Terraform · Airflow · GitHub Actions · Power BI |
+| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) ✅ Complete | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → PySpark in Fabric (silver) → dbt star schema with tests (gold) → three-page Power BI report on bottlenecks, on-time delivery and order margin. Infrastructure in Terraform, CI on GitHub Actions and a local Airflow DAG | PostgreSQL · Python · Docker · ADLS Gen2 · Microsoft Fabric · PySpark · Delta Lake · dbt · Terraform · Airflow · GitHub Actions · Power BI |
 | [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star model in about 3 s: 25+ kinds of defects cleaned, every fix logged, forecast vs fiscal year target. 48 tests | Python · SQL (CTEs, window functions) · SQLite · pytest · Power BI |
 | [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces ~20 min of weekly spreadsheet work with one command: business rules in SQL views and a weekly snapshot fact table that keeps history. 27 tests | Python · pandas · SQL · SQLite · pytest · Power BI |
 
@@ -74,15 +74,15 @@ Every project runs on synthetic data, has automated tests and runs them in CI on
 
 ### 📊 Case studies
 
-Full write-ups on Notion (problem, approach and results; all data anonymized or synthetic):
+Full write-ups (problem, approach and results; all data anonymized or synthetic):
 
 - [**Industrial Data Platform**](https://lucasnunesf.notion.site/Industrial-Data-Platform-415917c89c1781d5803ff41dbe762350): the end-to-end Azure + Microsoft Fabric lakehouse, from the ERP to the Power BI dashboard
 - [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site/Automating-the-purchasing-cycle-in-SAP-a73917c89c1783d49fb301b2a65ab928): requisitions and purchase orders created automatically, cutting time per order by up to 97%
 - [**Automotive Cost Reduction Tracking**](https://lucasnunesf.notion.site/Automotive-Cost-Reduction-Tracking-3de917c89c1780c38feccacc9238ab6e): 163 supplier files brought into one Power BI dashboard, showing the gap to the fiscal year target mid-year
 - [**Power BI – Engineering Change Tracking**](https://lucasnunesf.notion.site/Power-BI-Engineering-Change-Tracking-3e5917c89c1780978911c01acd0b21b3): two dashboards for change requests, with field parameters switching six approval stages on one page
-- [**Production planning: capacity vs load**](https://lucasnunesf.notion.site/Production-planning-capacity-vs-load-415917c89c17811d9e26f20595fd2a08): load vs capacity by work center and week, with the welding bottleneck the shop total hides
-- [**Sheet metal intake: supplier performance**](https://lucasnunesf.notion.site/Sheet-metal-intake-supplier-performance-415917c89c1781e5a657d396b4fd7caf): price next to on-time, fill rate and quality for each sheet metal supplier
-- [**Laser remnant inventory**](https://lucasnunesf.notion.site/Laser-remnant-inventory-415917c89c17816ea8def6a95caba375): laser offcuts from cut to reuse or scrap, before and after a control process
+- [**Production planning: capacity vs load**](https://github.com/lucasnunesf/production-planning-dashboard/blob/main/docs/case-study.md): load vs capacity by work center and week, with the welding bottleneck the shop total hides
+- [**Sheet metal intake: supplier performance**](https://github.com/lucasnunesf/sheet-metal-intake-dashboard/blob/main/docs/case-study.md): price next to on-time, fill rate and quality for each sheet metal supplier
+- [**Laser remnant inventory**](https://github.com/lucasnunesf/laser-remnant-inventory/blob/main/docs/case-study.md): laser offcuts from cut to reuse or scrap, before and after a control process
 - [**Tracking prototype parts with QR codes**](https://lucasnunesf.notion.site/Tracking-prototype-parts-with-QR-codes-81a917c89c17830b82b38101d66af8e3): the QR code → form → spreadsheet process introduced at Bosch, which cut inventory losses and rework by about 60%
 
 → [Full portfolio](https://lucasnunesf.notion.site/Lucas-Nunes-Data-BI-Analyst-3de917c89c178092885cf639b619767b)
