@@ -45,8 +45,8 @@ Every project runs on synthetic data and has automated tests.
 | Project | What it does | Tech stack |
 |---|---|---|
 | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → cleaning in Microsoft Fabric (silver) → dbt star schema (gold) → three-page Power BI report on bottlenecks, on-time delivery and order margin | Azure · Microsoft Fabric · dbt · SQL · Python · Power BI · DAX |
-| [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star model in about 3 s: 25+ kinds of defects cleaned, every fix logged, forecast vs fiscal year target. 48 tests | Python · SQL · SQLite · Power BI |
-| [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces ~20 min of weekly spreadsheet work with one command: business rules in SQL views and a weekly snapshot fact table that keeps history. 27 tests | Python · pandas · SQL · SQLite · Power BI |
+| [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | Cost reduction ideas from 150 supplier Excel files joined into one table and a Power BI dashboard: 29% of the target implemented, and the gap still to find | Excel · Python · SQL · Power BI |
+| [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Two Power BI dashboards for engineering changes: which are late and which team is holding them up. The weekly report went from ~20 min by hand to one command | Excel · Python · SQL · Power BI |
 
 **BI & Analytics dashboards**
 
