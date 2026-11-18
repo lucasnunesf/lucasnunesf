@@ -38,25 +38,25 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 ### 🚀 Projects
 
-Every project runs on synthetic data and has automated tests.
+Every project is based on a real case and runs on synthetic data.
 
 **Data engineering**
 
 | Project | What it does | Tech stack |
 |---|---|---|
 | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → cleaning in Microsoft Fabric (silver) → dbt star schema (gold) → three-page Power BI report on bottlenecks, on-time delivery and order margin | Azure · Microsoft Fabric · dbt · SQL · Python · Power BI · DAX |
-| [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | Cost reduction ideas from 150 supplier Excel files joined into one table and a Power BI dashboard: 29% of the target implemented, and the gap still to find | Excel · Python · SQL · Power BI |
-| [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Two Power BI dashboards for engineering changes: which are late and which team is holding them up. The weekly report went from ~20 min by hand to one command | Excel · Python · SQL · Power BI |
 
-**BI & Analytics dashboards**
+**BI & Analytics**
 
 | Project | What it shows | Tech stack |
 |---|---|---|
+| [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | Cost reduction ideas from 150 supplier Excel files joined into one table and a Power BI dashboard: 29% of the target implemented, and the gap still to find | Excel · Python · SQL · Power BI |
+| [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Two Power BI dashboards for engineering changes: which are late and which team is holding them up. The weekly report went from ~20 min by hand to one command | Excel · Python · SQL · Power BI |
 | [production-planning-dashboard](https://github.com/lucasnunesf/production-planning-dashboard) | Capacity vs load by work center: the shop runs at 76%, but welding is the bottleneck, over 100% in 7 weeks and up to 138% | Power BI · DAX · Power Query · Excel |
 | [sheet-metal-intake-dashboard](https://github.com/lucasnunesf/sheet-metal-intake-dashboard) | Supplier scorecard for sheet metal receiving: the cheapest mill is 10–12% cheaper but on time only 64% of the time, vs 95% for the best service center | Power BI · DAX · Power Query · Excel |
 | [laser-remnant-inventory](https://github.com/lucasnunesf/laser-remnant-inventory) | Laser cutting offcuts: stock, aging and reuse vs scrap. With a control process, reuse goes from 20.5% to 74.1% | Power BI · DAX · Power Query · Excel |
 
-**Databases & process automation**
+**Process automation**
 
 | Project | What it does | Tech stack |
 |---|---|---|
