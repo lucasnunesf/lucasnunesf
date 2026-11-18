@@ -52,9 +52,9 @@ Every project runs on synthetic data and has automated tests.
 
 | Project | What it shows | Tech stack |
 |---|---|---|
-| [production-planning-dashboard](https://github.com/lucasnunesf/production-planning-dashboard) | Capacity vs load by work center: the shop runs at 76%, but welding is the bottleneck, over 100% in 7 weeks and up to 138% | Power BI · DAX · Power Query · Python |
-| [sheet-metal-intake-dashboard](https://github.com/lucasnunesf/sheet-metal-intake-dashboard) | Supplier scorecard for sheet metal receiving: the cheapest mill is 10–12% cheaper but on time only 64% of the time, vs 95% for the best service center | Power BI · DAX · Power Query · Python |
-| [laser-remnant-inventory](https://github.com/lucasnunesf/laser-remnant-inventory) | Laser cutting offcuts: stock, aging and reuse vs scrap. With a control process, reuse goes from 20.5% to 74.1% | Power BI · DAX · Power Query · Python |
+| [production-planning-dashboard](https://github.com/lucasnunesf/production-planning-dashboard) | Capacity vs load by work center: the shop runs at 76%, but welding is the bottleneck, over 100% in 7 weeks and up to 138% | Power BI · DAX · Power Query · Excel |
+| [sheet-metal-intake-dashboard](https://github.com/lucasnunesf/sheet-metal-intake-dashboard) | Supplier scorecard for sheet metal receiving: the cheapest mill is 10–12% cheaper but on time only 64% of the time, vs 95% for the best service center | Power BI · DAX · Power Query · Excel |
+| [laser-remnant-inventory](https://github.com/lucasnunesf/laser-remnant-inventory) | Laser cutting offcuts: stock, aging and reuse vs scrap. With a control process, reuse goes from 20.5% to 74.1% | Power BI · DAX · Power Query · Excel |
 
 **Databases & process automation**
 
@@ -77,9 +77,9 @@ Full write-ups (problem, approach and results; all data anonymized or synthetic)
 - [**Automating the purchasing cycle in SAP**](https://lucasnunesf.notion.site/Automating-the-purchasing-cycle-in-SAP-a73917c89c1783d49fb301b2a65ab928): requisitions and purchase orders created automatically, cutting time per order by up to 97%
 - [**Automotive Cost Reduction Tracking**](https://lucasnunesf.notion.site/Automotive-Cost-Reduction-Tracking-3de917c89c1780c38feccacc9238ab6e): 163 supplier files brought into one Power BI dashboard, showing the gap to the fiscal year target mid-year
 - [**Power BI – Engineering Change Tracking**](https://lucasnunesf.notion.site/Power-BI-Engineering-Change-Tracking-3e5917c89c1780978911c01acd0b21b3): two dashboards for change requests, with field parameters switching six approval stages on one page
-- [**Production planning: capacity vs load**](https://github.com/lucasnunesf/production-planning-dashboard/blob/main/docs/case-study.md): load vs capacity by work center and week, with the welding bottleneck the shop total hides
-- [**Sheet metal intake: supplier performance**](https://github.com/lucasnunesf/sheet-metal-intake-dashboard/blob/main/docs/case-study.md): price next to on-time, fill rate and quality for each sheet metal supplier
-- [**Laser remnant inventory**](https://github.com/lucasnunesf/laser-remnant-inventory/blob/main/docs/case-study.md): laser offcuts from cut to reuse or scrap, before and after a control process
+- [**Production planning: capacity vs load**](https://github.com/lucasnunesf/production-planning-dashboard): load vs capacity by work center and week, with the welding bottleneck the shop total hides
+- [**Sheet metal intake: supplier performance**](https://github.com/lucasnunesf/sheet-metal-intake-dashboard): price next to on-time, fill rate and quality for each sheet metal supplier
+- [**Laser remnant inventory**](https://github.com/lucasnunesf/laser-remnant-inventory): laser offcuts from cut to reuse or scrap, before and after a control process
 - [**Tracking prototype parts with QR codes**](https://lucasnunesf.notion.site/Tracking-prototype-parts-with-QR-codes-81a917c89c17830b82b38101d66af8e3): the QR code → form → spreadsheet process introduced at Bosch, which cut inventory losses and rework by about 60%
 
 → [Full portfolio](https://lucasnunesf.notion.site/Lucas-Nunes-Data-BI-Analyst-3de917c89c178092885cf639b619767b)
