@@ -13,15 +13,13 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI%20%2B%20DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-117865?style=flat)
-![Power BI](https://img.shields.io/badge/Power%20BI%20%2B%20DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![SAP](https://img.shields.io/badge/SAP%20ERP-0FAAFF?style=flat&logo=sap&logoColor=white)
 ![VBA](https://img.shields.io/badge/VBA-867DB1?style=flat)
 
@@ -34,7 +32,7 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 - **30 spreadsheets → 1 Power BI view**: replaced a 30-spreadsheet reporting routine with a single report
 - **Weekly executive dashboards** for Engineering Change (ECI) tracking, fed by Python + SQL extractions from the legacy SIQ system
 - **ERP migration (TOIOS → SAP)**: standardized databases and data workflows across the TLAC region (Brazil and Argentina)
-- **Azure data platform at AC Metais**: delivered the Power BI reporting layer on top of the gold models and supported ingestion into ADLS Gen2 and transformations with PySpark (Microsoft Fabric) and dbt
+- **Azure data platform at AC Metais**: delivered the Power BI reporting layer on top of the gold models in Microsoft Fabric and supported the data integration into ADLS Gen2
 - **−60% sheet metal lookup time, −15% scrap**: Power BI dashboards integrated with the Kiron ERP at **AC Metais**
 - **≈60% fewer inventory losses and rework** at **Bosch**: contributed to a QR-code based prototype inventory solution, plus Python scripts parsing emails into Power BI for real-time stock visibility
 
@@ -46,7 +44,7 @@ Every project runs on synthetic data, has automated tests and runs them in CI on
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → PySpark in Fabric (silver) → dbt star schema with tests (gold) → three-page Power BI report on bottlenecks, on-time delivery and order margin. Infrastructure in Terraform, CI on GitHub Actions and a local Airflow DAG | PostgreSQL · Python · Docker · ADLS Gen2 · Microsoft Fabric · PySpark · Delta Lake · dbt · Terraform · Airflow · GitHub Actions · Power BI |
+| [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → cleaning in Microsoft Fabric (silver) → dbt star schema (gold) → three-page Power BI report on bottlenecks, on-time delivery and order margin | Azure · Microsoft Fabric · dbt · SQL · Python · Power BI · DAX |
 | [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star model in about 3 s: 25+ kinds of defects cleaned, every fix logged, forecast vs fiscal year target. 48 tests | Python · SQL (CTEs, window functions) · SQLite · pytest · Power BI |
 | [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces ~20 min of weekly spreadsheet work with one command: business rules in SQL views and a weekly snapshot fact table that keeps history. 27 tests | Python · pandas · SQL · SQLite · pytest · Power BI |
 
