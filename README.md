@@ -1,6 +1,6 @@
 ### Hi, I'm Lucas
 
-**Data Engineer | Data & BI Analyst** · SQL · Python · Power BI · Azure · Microsoft Fabric · dbt
+**Data & BI Analyst | Data Engineer** · SQL · Python · Power BI · Azure · Microsoft Fabric · dbt
 
 I work where operations meet data: ERP systems, legacy databases and spreadsheets that nobody wants to reconcile by hand.
 I turn that into automated pipelines and dashboards people actually use. 3+ years at **Toyota**, **Bosch** and **AC Metais**, working daily in English with teams in Japan, Thailand and the United States.
