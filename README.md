@@ -61,7 +61,7 @@ Every project is based on a real case and runs on synthetic data.
 | Project | What it does | Tech stack |
 |---|---|---|
 | [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) | QR code part tracking: form answers exported to Excel, loaded into SQL with Python and ready for Power BI. Shows where every part is and which parts are outside the site | Excel · Python · SQL · Power BI |
-| [sap-automation](https://github.com/lucasnunesf/sap-automation) | Creates requisitions and POs in SAP from 5 supplier formats: up to 97% faster, 5 h 10 min → 8 min 38 s per order (Toyota top 3 project). Parser, business rule and end-to-end tests | Python · VBA · SAP GUI · Excel |
+| [sap-automation](https://github.com/lucasnunesf/sap-automation) | Creates requisitions and POs in SAP from 5 supplier formats: up to 97% faster, 5 h 10 min → 8 min 38 s per order (Toyota top 3 project) | Python · VBA · SAP GUI · Excel |
 
 **Embedded**
 
