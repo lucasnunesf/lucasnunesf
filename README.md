@@ -38,36 +38,36 @@ I turn that into automated pipelines and dashboards people actually use. 3+ year
 
 ### 🚀 Projects
 
-Every project runs on synthetic data, has automated tests and runs them in CI on GitHub Actions.
+Every project runs on synthetic data and has automated tests.
 
 **Data engineering**
 
 | Project | What it does | Tech stack |
 |---|---|---|
 | [industrial-data-platform](https://github.com/lucasnunesf/industrial-data-platform) | End-to-end rebuild of the Azure + Microsoft Fabric data platform I worked on at AC Metais: plant simulator and PostgreSQL ERP → incremental ingestion to ADLS Gen2 (bronze) → cleaning in Microsoft Fabric (silver) → dbt star schema (gold) → three-page Power BI report on bottlenecks, on-time delivery and order margin | Azure · Microsoft Fabric · dbt · SQL · Python · Power BI · DAX |
-| [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star model in about 3 s: 25+ kinds of defects cleaned, every fix logged, forecast vs fiscal year target. 48 tests | Python · SQL (CTEs, window functions) · SQLite · pytest · Power BI |
-| [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces ~20 min of weekly spreadsheet work with one command: business rules in SQL views and a weekly snapshot fact table that keeps history. 27 tests | Python · pandas · SQL · SQLite · pytest · Power BI |
+| [pipeline-cost-reduction-powerbi](https://github.com/lucasnunesf/pipeline-cost-reduction-powerbi) | 150 supplier Excel files into one star model in about 3 s: 25+ kinds of defects cleaned, every fix logged, forecast vs fiscal year target. 48 tests | Python · SQL · SQLite · Power BI |
+| [pipeline-eng-change-powerbi](https://github.com/lucasnunesf/pipeline-eng-change-powerbi) | Replaces ~20 min of weekly spreadsheet work with one command: business rules in SQL views and a weekly snapshot fact table that keeps history. 27 tests | Python · pandas · SQL · SQLite · Power BI |
 
 **BI & Analytics dashboards**
 
 | Project | What it shows | Tech stack |
 |---|---|---|
-| [production-planning-dashboard](https://github.com/lucasnunesf/production-planning-dashboard) | Capacity vs load by work center: the shop runs at 76%, but welding is the bottleneck, over 100% in 7 weeks and up to 138% | Power BI · DAX · Power Query · TMDL/PBIR · Python · pytest |
-| [sheet-metal-intake-dashboard](https://github.com/lucasnunesf/sheet-metal-intake-dashboard) | Supplier scorecard for sheet metal receiving: the cheapest mill is 10–12% cheaper but on time only 64% of the time, vs 95% for the best service center | Power BI · DAX · Power Query · TMDL/PBIR · Python · pytest |
-| [laser-remnant-inventory](https://github.com/lucasnunesf/laser-remnant-inventory) | Laser cutting offcuts: stock, aging and reuse vs scrap. With a control process, reuse goes from 20.5% to 74.1% | Power BI · DAX · Power Query · TMDL/PBIR · Python · pytest |
+| [production-planning-dashboard](https://github.com/lucasnunesf/production-planning-dashboard) | Capacity vs load by work center: the shop runs at 76%, but welding is the bottleneck, over 100% in 7 weeks and up to 138% | Power BI · DAX · Power Query · Python |
+| [sheet-metal-intake-dashboard](https://github.com/lucasnunesf/sheet-metal-intake-dashboard) | Supplier scorecard for sheet metal receiving: the cheapest mill is 10–12% cheaper but on time only 64% of the time, vs 95% for the best service center | Power BI · DAX · Power Query · Python |
+| [laser-remnant-inventory](https://github.com/lucasnunesf/laser-remnant-inventory) | Laser cutting offcuts: stock, aging and reuse vs scrap. With a control process, reuse goes from 20.5% to 74.1% | Power BI · DAX · Power Query · Python |
 
 **Databases & process automation**
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) | QR code part tracking with the business rules inside PostgreSQL: triggers, procedures for count closing, a reporting mart for Power BI, roles and row-level security, 12 analysis queries. 31 SQL checks + 47 tests | PostgreSQL · PL/pgSQL · SQL · Python · pytest · GitHub Actions |
-| [sap-automation](https://github.com/lucasnunesf/sap-automation) | Creates requisitions and POs in SAP from 5 supplier formats: up to 97% faster, 5 h 10 min → 8 min 38 s per order (Toyota top 3 project). Parser, business rule and end-to-end tests | Python · VBA · SAP GUI · Excel · pytest |
+| [prototype-inventory-sql](https://github.com/lucasnunesf/prototype-inventory-sql) | QR code part tracking with the business rules inside PostgreSQL: triggers, procedures for count closing, a reporting mart for Power BI, roles and row-level security, 12 analysis queries. 31 SQL checks + 47 tests | PostgreSQL · SQL · Python |
+| [sap-automation](https://github.com/lucasnunesf/sap-automation) | Creates requisitions and POs in SAP from 5 supplier formats: up to 97% faster, 5 h 10 min → 8 min 38 s per order (Toyota top 3 project). Parser, business rule and end-to-end tests | Python · VBA · SAP GUI · Excel |
 
 **Embedded**
 
 | Project | What it does | Tech stack |
 |---|---|---|
-| [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition) | Sumo robot firmware with a state machine and a match simulator that found a rule losing wins: 97% of simulated matches won instead of 72% (simulator results, not a real competition) | C++17 · Arduino · ESP32 · GitHub Actions |
+| [robot-sumo-competition](https://github.com/lucasnunesf/robot-sumo-competition) | Sumo robot firmware with a state machine and a match simulator that found a rule losing wins: 97% of simulated matches won instead of 72% (simulator results, not a real competition) | C++17 · Arduino · ESP32 |
 
 ### 📊 Case studies
 
@@ -87,9 +87,9 @@ Full write-ups (problem, approach and results; all data anonymized or synthetic)
 ### 🎓 Education & training
 
 - **Bachelor's Degree in Engineering**, FACENS (2022–2026) · **Technical Degree in Business Intelligence and Administration**, ETEC (2020–2022)
-- **Microsoft Power BI Data Analyst** – Professional Certificate course completed, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX
-- **IBM Data Engineering** – Professional Certificate course, IBM via Coursera (2026)
 - **Microsoft Fabric Analytics Engineer (DP-600)**: exam scheduled for December 21, 2026
+- **IBM Data Engineering** – Professional Certificate course, IBM via Coursera (2026)
+- **Microsoft Power BI Data Analyst** – Professional Certificate course completed, Microsoft via Coursera (2026): Power Query ETL, star schema modeling and DAX
 - 🇧🇷 Portuguese (native) · 🇬🇧 English (professional working proficiency, CEFR B2)
 
 ### 🤖 Beyond data
